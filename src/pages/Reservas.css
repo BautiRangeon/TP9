@@ -1,0 +1,35 @@
+.habitaciones { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin: 24px 0; }
+.habitacion { background-color: white; border: 2px solid #e8dbe5; border-radius: 8px; padding: 14px; text-align: center; }
+.habitacion.seleccionada { border-color: var(--uva); background-color: var(--uva-claro); }
+.habitacion img { width: 100%; border-radius: 4px; margin-bottom: 16px; }
+.habitacion h2 { font-size: 19px; margin-bottom: 12px; }
+.habitacion p { font-size: 14px; margin-bottom: 12px; }
+.habitacion button { width: 100%; }
+.formulario { max-width: 540px; margin: 32px auto 0; }
+.formulario label { display: block; margin-bottom: 8px; }
+.formulario input { width: 100%; border: 1px solid #cdb5c7; border-radius: 5px; padding: 11px; }
+.formulario > p { font-size: 14px; margin-top: 20px; }
+.calendario { text-align: center; }
+.limpiar { display: block; margin: 12px auto; background: transparent; color: var(--uva); padding: 6px; text-decoration: underline; }
+.limpiar:hover { background: var(--uva-claro); }
+.resumen { background-color: var(--uva-claro); padding: 16px; border-radius: 5px; margin-block: 18px; }
+.resumen p { font-size: 14px; margin: 6px 0; }
+.resumen .total { color: var(--uva); font-size: 20px; }
+.error { color: #a12d3c; }
+.formulario > button[type="submit"] { width: 100%; }
+
+/* Colores del calendario. */
+.react-datepicker { font-family: Arial, sans-serif; border-color: #cdb5c7; }
+.react-datepicker__header { background-color: var(--uva-claro); border-bottom-color: #cdb5c7; }
+.react-datepicker__current-month, .react-datepicker__day-name { color: var(--uva); }
+.react-datepicker__day--keyboard-selected, .react-datepicker__day--in-range, .react-datepicker__day--in-selecting-range { background-color: #e1bed9; color: #423441; }
+.react-datepicker__day--selected, .react-datepicker__day--range-start, .react-datepicker__day--range-end, .react-datepicker__day--selecting-range-start { background-color: var(--uva); color: white; }
+.react-datepicker__day:not(.react-datepicker__day--disabled):hover { background-color: #b676a6; color: white; }
+
+@media (max-width: 900px) {
+  .habitaciones { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 480px) {
+  .habitaciones { grid-template-columns: 1fr; }
+}

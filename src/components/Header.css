@@ -1,0 +1,17 @@
+.header {
+  background-color: var(--uva);
+  color: white;
+  text-align: center;
+  padding: 24px 16px;
+}
+
+.header h2 { color: white; margin-bottom: 6px; }
+.header p { margin-bottom: 20px; font-size: 14px; }
+.menu { display: flex; justify-content: center; flex-wrap: wrap; gap: 12px; }
+.menu a { color: white; text-decoration: none; padding: 9px 12px; border-radius: 5px; }
+.menu a:hover, .menu a.active { background-color: white; color: var(--uva); }
+
+@media (max-width: 480px) {
+  .menu { gap: 4px; }
+  .menu a { font-size: 13px; padding: 9px 8px; }
+}
