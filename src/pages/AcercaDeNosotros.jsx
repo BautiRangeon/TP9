@@ -3,7 +3,7 @@ function AcercaDeNosotros() {
     <main className="contenedor">
       <section className="tarjeta">
         <h1>Acerca de nosotros</h1>
-        <p>Hotel Bruma es un pequeño hotel ubicado en Cafayate, en la provincia de Salta.</p>
+        <p>Hotel Chaile es un pequeño hotel ubicado en Cafayate, en la provincia de Salta.</p>
         <p>Contamos con cuatro habitaciones para disfrutar de unos días de descanso en pareja o en familia.</p>
         <h2>Nuestros servicios</h2>
         <ul>
