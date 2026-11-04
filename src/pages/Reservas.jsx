@@ -13,7 +13,7 @@ const habitaciones = [
   { id: 1, nombre: "Doble Esencial", personas: 2, precio: 68000, imagen: esencial },
   { id: 2, nombre: "Doble Superior", personas: 2, precio: 85000, imagen: superior },
   { id: 3, nombre: "Familiar", personas: 4, precio: 112000, imagen: familiar },
-  { id: 4, nombre: "Suite Bruma", personas: 2, precio: 145000, imagen: suite },
+  { id: 4, nombre: "Suite Chaile", personas: 2, precio: 145000, imagen: suite },
 ];
 
 function precio(valor) {
@@ -51,7 +51,7 @@ function Reservas() {
       "Entrada: " + fecha(entrada) + "\n" +
       "Salida: " + fecha(salida) + "\n" +
       "Noches: " + noches + "\n" +
-      "Total: " + precio(total) + " ARS\n\nHotel Bruma, Cafayate."
+      "Total: " + precio(total) + " ARS\n\nHotel Chaile, Cafayate."
     );
   }
 
