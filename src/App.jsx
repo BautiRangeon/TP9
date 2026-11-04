@@ -16,7 +16,7 @@ function App() {
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
       <footer className="footer">
-        <p>Hotel Bruma · Cafayate, Salta · Argentina</p>
+        <p>Hotel Chaile · Cafayate, Salta · Argentina</p>
       </footer>
     </div>
   );
