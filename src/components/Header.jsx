@@ -4,7 +4,7 @@ import "./Header.css";
 function Header() {
   return (
     <header className="header">
-      <h2>Hotel Bruma</h2>
+      <h2>Hotel Chaile</h2>
       <p>Cafayate, Salta</p>
       <nav className="menu" aria-label="Navegación principal">
         <NavLink to="/" end>Inicio</NavLink>
